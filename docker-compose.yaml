@@ -1,4 +1,4 @@
-service:
+services:
   node_app:
     build:
       context: .
