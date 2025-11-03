@@ -1,0 +1,8 @@
+service:
+  node_app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container-name: node-app
+    ports:
+      - "3000:3000"
